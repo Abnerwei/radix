@@ -1,14 +1,14 @@
 # Radix
 
-[![Build Status](https://travis-ci.org/mediocregopher/radix.svg)](https://travis-ci.org/mediocregopher/radix)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mediocregopher/radix/v3)](https://goreportcard.com/report/github.com/mediocregopher/radix/v3)
-[![GoDoc](https://godoc.org/github.com/mediocregopher/radix?status.svg)][godoc]
+[![Build Status](https://travis-ci.org/abnerwei/radix.svg)](https://travis-ci.org/abnerwei/radix)
+[![Go Report Card](https://goreportcard.com/badge/github.com/abnerwei/radix/v3)](https://goreportcard.com/report/github.com/abnerwei/radix/v3)
+[![GoDoc](https://godoc.org/github.com/abnerwei/radix?status.svg)][godoc]
 
 Radix is a full-featured [Redis][redis] client for Go. See the [GoDoc][godoc]
 for documentation and general usage examples.
 
 This is the third revision of this project, the previous one has been deprecated
-but can be found [here](https://github.com/mediocregopher/radix.v2).
+but can be found [here](https://github.com/abnerwei/radix.v2).
 
 **This project's name was recently changed from `radix.v3` to `radix`, to
 account for go's new [module][module] system. As long as you are using the
@@ -24,18 +24,18 @@ import paths and re-run 'go get'.**
 
 [Module][module]-aware mode:
 
-    go get github.com/mediocregopher/radix/v3
-    // import github.com/mediocregopher/radix/v3
+    go get github.com/abnerwei/radix/v3
+    // import github.com/abnerwei/radix/v3
 
 Legacy GOPATH mode:
 
-    go get github.com/mediocregopher/radix
-    // import github.com/mediocregopher/radix
+    go get github.com/abnerwei/radix
+    // import github.com/abnerwei/radix
 
 ## Testing
 
     # requires a redis server running on 127.0.0.1:6379
-    go test github.com/mediocregopher/radix/v3
+    go test github.com/abnerwei/radix/v3
 
 ## Features
 
@@ -95,7 +95,7 @@ Unless otherwise noted, the source files are distributed under the *MIT License*
 found in the LICENSE.txt file.
 
 [redis]: http://redis.io
-[godoc]: https://godoc.org/github.com/mediocregopher/radix
+[godoc]: https://godoc.org/github.com/abnerwei/radix
 [eval]: https://redis.io/commands/eval
 [scan]: https://redis.io/commands/scan
 [pipelining]: https://redis.io/topics/pipelining

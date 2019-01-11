@@ -8,7 +8,7 @@ import (
 	. "testing"
 	"time"
 
-	"github.com/mediocregopher/mediocre-go-lib/mrand"
+	"github.com/abnerwei/mediocre-go-lib/mrand"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -7,7 +7,7 @@ import (
 	"reflect"
 	. "testing"
 
-	"github.com/mediocregopher/radix/v3/resp"
+	"github.com/abnerwei/radix/resp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
